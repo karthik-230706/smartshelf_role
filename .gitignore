@@ -1,0 +1,12 @@
+node_modules/
+backend/db.json
+backend/certs/
+backend/smartshelf.log
+backend/smartshelf.pid
+backend/cloudflared.pid
+.env
+.env.local
+.DS_Store
+Thumbs.db
+*.swp
+npm-debug.log*

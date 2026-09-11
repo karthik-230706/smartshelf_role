@@ -1,0 +1,10 @@
+{
+  "nextUserId": 1,
+  "nextItemId": 1,
+  "nextOrderId": 1,
+  "nextAddressId": 1,
+  "users": [],
+  "items": [],
+  "orders": [],
+  "otpSessions": []
+}

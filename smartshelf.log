@@ -1,0 +1,59 @@
+
+SmartShelf backend is running — reachable from this computer AND from
+any phone/tablet on the same WiFi network (no "localhost" needed on those):
+
+  This computer only:   http://localhost:4000
+  PC or phone (WiFi):    http://192.168.0.206:4000
+  PC or phone, HTTPS:    https://192.168.0.206:4443  ← use this one for the camera scanner
+
+  Your browser will warn the HTTPS certificate isn't "trusted" — that's
+  expected for a self-signed one made just for your network. Tap
+  Advanced → Proceed (wording varies by browser) to continue.
+
+  Scan this on your phone to open it instantly:
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▄▄ ▀█▄█▄█ ▄▄▄▄▄ █
+█ █   █ ██▄▀ █ ▀▄▄█ █   █ █
+█ █▄▄▄█ ██▀▄ ▄▀██▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ ▀ ▀ █▄▄▄▄▄▄▄█
+█ ▄▀▄▄█▄██▄▀█▄██▀ ▀▄█▀▀▀▀▄█
+█▀  ▄▀ ▄█ ▄██▄█▄▄▀▄▀▄▄ ▀▀ █
+█ ▀ █▀▀▄▄█▄ █ ▀▄▀█ ▄▀▀██▀▄█
+█ ▄▄ ▄▄▄▀█  ▀▀█  ▄█▄▀▄  ▄ █
+█▄███▄▄▄▄▀▀█▄▀    ▄▄▄ █  ██
+█ ▄▄▄▄▄ ██▀▄▄▄▀ █ █▄█ ███▄█
+█ █   █ █  ▀▀▀██  ▄ ▄▄██▀▀█
+█ █▄▄▄█ █▀▄▄ ▄██ █▄█▀ ▄   █
+█▄▄▄▄▄▄▄█▄▄█▄██▄▄▄▄███▄██▄█
+
+
+  ✅ Frontend found at C:\dec\m\smartshelf_role_app\frontend — the app will load normally.
+
+
+🌍 Public URL — works on ANY network (WiFi or mobile data), from anywhere:
+   https://rude-flowers-stare.loca.lt
+
+   First open from a new device may show a plain "Friendly Reminder" page —
+   that's normal for this free tunnel service, just click through it once.
+
+   Scan this to open it instantly:
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀  ▄▄▀▀▀▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀█▀▀▄▀██▀█ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀▄▀ ▄█ ▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █▄▀ ▀ █▄█▄▄▄▄▄▄▄█
+█▄▄▄ ▀▀▄▀▄█ ▄  ▀ ▄▄▄▀█ ▀█ ▄▄█ █
+██▄▀▄▄▄▄▀▄  ▄▄▄███████  ▀██▄▄▀█
+█▄▀▄ ▀▄▄▀▄▄▄▀ █    █▀▄█▀██▄ ▀▀█
+█▀▄▀▀ ▀▄▄▄▄  █▄▀▀ █▄ █  ▀▀█▄ ▄█
+█▄▄ ▀ ▄▄ ▀▀██▄█  █▀██▀▄█ ▄ ▀ ██
+█▄██▄ ▄▄▄▄▀ ▀█   ▀ ██▄█▄▄▄█ ███
+██▄▄▄▄▄▄█▀  ██▄▄▄▄  ▄ ▄▄▄   ▀▀█
+█ ▄▄▄▄▄ ███▄▀▀▀ █ ▄▄▄ █▄█  █▄██
+█ █   █ █▀▀▄ █▀█ ▀▄█▀▄ ▄▄ ▀▄▄▀█
+█ █▄▄▄█ █ █ █ ▀▄██▄▄▀▀█▀▄█▀▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄██████▄▄▄▄▄▄█▄█▄██
+
+

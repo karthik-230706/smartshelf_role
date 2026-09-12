@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 const crypto = require("crypto");
-const { readDB, writeDB } = require("./db");
+const { readDB, writeDB, ready } = require("./db");
 const { lookupBarcode, CATEGORY_LIST } = require("./catalog");
 
 const app = express();
@@ -646,6 +646,11 @@ if (!IS_HOSTED) {
   }
 }
 
+// Wait for db.js's one-time startup sync from MongoDB Atlas (if configured)
+// to finish before accepting any requests, so the first page load already
+// has the latest saved data instead of a blank/default db.json.
+ready().then(() => {
+
 const mainServer = app.listen(PORT, "0.0.0.0", () => {
   const frontendFound = fs.existsSync(path.join(FRONTEND_DIR, "index.html"));
 
@@ -705,3 +710,5 @@ mainServer.on("error", (err) => {
   }
   process.exit(1);
 });
+
+}); // end ready().then()
